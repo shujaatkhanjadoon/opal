@@ -1,5 +1,5 @@
 import { Spinner } from "@/components/global/loader/spinner";
-import { Loader } from "lucide-react";
+// import { Loader } from "lucide-react";
 
 export default function AuthLoading(){
     return(
