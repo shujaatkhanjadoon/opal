@@ -1,11 +1,10 @@
 import { onAuthenticateUser } from "@/actions/user";
 import { redirect } from "next/navigation";
 
-
-interface DashboardPageProps {
+interface AuthCallbackPageProps {
 
 }
-const DashboardPage = async({}: DashboardPageProps) => {
+const AuthCallbackPage = async({}: AuthCallbackPageProps) => {
 
     const auth = await onAuthenticateUser();
     if(auth.status === 200 || auth.status ===201){
@@ -18,4 +17,4 @@ const DashboardPage = async({}: DashboardPageProps) => {
 
 };
 
-export default DashboardPage;
+export default AuthCallbackPage;
