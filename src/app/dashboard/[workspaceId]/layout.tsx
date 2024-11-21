@@ -1,8 +1,6 @@
 import React from 'react'
 import { getNotifications, onAuthenticateUser } from '@/actions/user'
 import {
-  getAllUserVideos,
-  getWorkspaceFolders,
   getWorkSpaces,
   verifyAccessToWorkspace,
 } from '@/actions/workspace'
