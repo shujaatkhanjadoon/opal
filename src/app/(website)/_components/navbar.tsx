@@ -7,7 +7,7 @@ export const Navbar = () => {
     return (
         <div className="flex items-center justify-between w-full">
             <div className="flex items-center gap-x-2 text-lg xl:text-3xl font-semibold">
-                <Menu className="size-6" />
+                {/* <Menu className="size-6" /> */}
                 <Image src="/logo.svg" alt="Logo" width={40} height={40} />
                 SK Opal
             </div>
